@@ -12,3 +12,15 @@ This is a simple and dynamic task management application built with React, TypeS
 
 ---
 
+## 📁 Project Structure
+
+The component architecture and directory layout are organized as follows:
+
+```text
+src/
+├── components/
+│   └── TaskList.tsx       # Droppable container component for the tasks
+├── types/
+│   └── Task.ts            # Type definitions for the Task object (id, text)
+├── App.tsx                # Main entry component containing DragDropContext and handleDragEnd logic
+└── main.tsx               # Application root render file
